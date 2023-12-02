@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F3F3F3"
-    tools:context=".DetailActivity">
+    tools:context=".ui.detail.DetailActivity">
 
     <ImageButton
         android:id="@+id/btn_back"
@@ -44,7 +44,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_jobs"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginTop="24dp"
@@ -76,9 +76,9 @@
         android:textAlignment="center"
         android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintEnd_toEndOf="@+id/iv_jobs"
+        app:layout_constraintStart_toStartOf="@+id/iv_jobs"
+        app:layout_constraintTop_toBottomOf="@+id/iv_jobs" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -151,6 +151,7 @@
 
 
     <Button
+        android:id="@+id/btn_apply"
         android:layout_marginBottom="30dp"
         android:text="Apply"
         android:backgroundTint="#014C85"
